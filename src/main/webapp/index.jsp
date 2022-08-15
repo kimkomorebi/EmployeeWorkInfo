@@ -17,7 +17,7 @@
 		<div class="" id="sectionWrap">
 		
 			<section>
-				<h2>사원 정보 관리 시스템 branch test</h2>
+				<h2>사원 정보 관리 시스템입니다</h2>
 				<div class="sectionInfo">
 					<p>
 						1. 회사 사원의 기본적인 정보를 조회 등록 수정 및 삭제할 수 있습니다.<br/>
