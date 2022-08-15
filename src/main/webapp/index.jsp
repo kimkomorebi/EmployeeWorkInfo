@@ -5,7 +5,7 @@
 <head>
 <meta charset="EUC-KR">
 <link href="style.css" rel="stylesheet" type="text/css">
-<title>사원 정보 관리 시스템</title>
+<title>사원 정보 관리 시스템이무니다</title>
 </head>
 <body>
 	<div id="wrap">
