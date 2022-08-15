@@ -1,0 +1,127 @@
+@charset "EUC-KR";
+#wrap {}
+body, html, header,section,footer,div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,a,span,strong {margin:0; padding:0; border:0; font-weight:normal; }
+ul, ol, li {list-style:none;}
+a {text-decoration:none;}
+table {margin:0 auto; border-collapse:collapse;} 
+table input {padding:3px 5px;}
+
+
+/* headerWrap */
+#headerWrap {}
+#headerWrap header {}
+#headerWrap .title {}
+#headerWrap .title > h1 {text-align:center; padding:20px 0; background:#034ea2;}
+#headerWrap .title > h1 > a {font-size:24px; font-weight:800; color:#fff;}
+#headerWrap nav { background:rgba(0,0,0,0.8);}
+#headerWrap nav > ul {
+	display:flex; flex-flow:row nowrap;  justify-content:space-between; 
+	width:100%; margin:0 auto;
+	}
+#headerWrap nav > ul > li {width:16%;}
+#headerWrap nav > ul > li > a {
+	display:inline-block; position:relative; /* padding:10px 20px; */ font-size:13px; font-weight:600; color:#fff;
+	width:100%; text-align:center;padding:20px 0;
+	}
+.logoutBtn {position:relative;}
+.welcomeComment {
+	position: absolute;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    top: -33%;
+    transform: translateX(-50%);
+    width:100%;
+}
+/* #headerWrap nav > ul > li.welcomeComment::after {
+	display:inline-block; width:2px; height:20%; background:#fff;
+	content:'';
+	position:absolute; right:0; top:50%; transform:translateY(-50%);
+} */
+#headerWrap nav > ul > li > a:hover {text-decoration:underline; color:rgba(255,255,255,0.7); transition:all 0.5s;}
+#headerWrap nav > ul > li > a::after {
+	display:inline-block; width:2px; height:20%; background:#fff;
+	content:'';
+	position:absolute; right:0; top:50%; transform:translateY(-50%);
+}
+#headerWrap nav > ul > li:last-child a::after {display:none;}
+/* sectionWrap */
+#sectionWrap {margin:0 auto; }
+#sectionWrap section {padding:45px 0;}
+#sectionWrap section h2 {font-size:28px; font-weight:500; text-align:center; padding:0 0 30px;}
+#sectionWrap .tit {padding:0 0 45px;}
+#sectionWrap section p {
+	width:650px; margin:0 auto;
+	line-height:1.9; padding:10px 20px;
+	}
+select { width:100%; padding:3px 5px;}
+table tr {}
+table th {padding:10px 20px; text-align:center;/*  background:#034ea2; color:#fff; */} 
+table td {padding:5px 10px; text-align:center;}
+.secEmployeeInfo {}
+.secEmployeeInfo table {}
+.secEmployeeInfo table tr {}
+.secEmployeeInfo table tr th {background:rgba(0,0,0,0.8); color:#fff;}
+.secEmployeeInfo table tr td {}
+.secEmployeeInfo table tr td > a {color:#000; font-weight:600; text-decoration:underline;}
+.secEmployeeInfo table tr td > a::hover {opacity:0.5; transition:opacity 0.5s;}
+.empPwd {text-align:center; border:none; font-size:16px;}
+.wokrNum {border:0; text-align:center;}
+.empNum {border:0; text-align:center;}
+.notUpdate {border:0; text-align:center;}
+.loginWrap {width: 350px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 25px;}
+    
+    /* BtnStyle */
+input[type="button"], input[type="submit"] {cursor:pointer;}
+.loginWrap .loginBtn {padding:15px 35px; border:none; font-size:16px; cursor:pointer;}
+.loginWrap .loginSubmit {background:#034ea2; color:#fff; font-weight:600;}
+.loginWrap .loginSubmit:hover {}
+.loginWrap .loginReset {background:rgba(0,0,0,0.8); color:#fff;}
+
+.entryPageBtn {
+	width:30%;
+	padding:10px 0;
+	font-size:14px;
+}
+.insertBtn {
+	background: #034ea2;
+    color: #fff;
+    border: 1px solid #034ea2;
+    border-radius: 2px;
+}
+.selectBtn {
+	background: #eee;
+    color: #000;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+}
+.employeePageBtn {width:30%; padding:10px 0; font-size:14px;}
+.workPageBtn {padding: 5px 10px;}
+.workUpdateBtn {
+	background: #034ea2;
+    color: #fff;
+    border: 1px solid #034ea2;
+    border-radius: 2px;
+}
+.workDeleteBtn {
+	background: #eee;
+    color: #000;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+}
+.workNumDeleteBtn {
+	background: #eee;
+    color: #000;
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    width:100%;
+}
+/* footerWrap */
+#footerWrap {}
+#footerWrap footer {padding:25px 0;margin:0 auto; background:rgba(0,0,0,0.8);}
+#footerWrap footer p {text-align:center;  color:#fff;}
