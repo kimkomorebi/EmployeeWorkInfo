@@ -27,7 +27,7 @@
 					}
 				%>
 				<div class="loginWrap">
-					<h2>로그인</h2>
+					<h2>로그인ㅇㅇ</h2>
 					<div class="sectionInfo" align="center"'>
 						<form action="login.do" method="post" onSubmit="return check(this)">
 							사 번 : <input type="text" name="ID" size="15" focus()/><br/>
